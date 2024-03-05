@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+
+
+import _easycom_u_icon from '@/components/u-icon/u-icon.uvue'
+function GenPagesIndexIndexRender(): VNode | null {
+const _ctx = this
+const _cache = this.$.renderCache
+const _component_u_icon = resolveEasyComponent("u-icon",_easycom_u_icon)
+
+  return createElementVNode("view", utsMapOf({ class: "content" }), [
+    createVNode(_component_u_icon, utsMapOf({
+      code: '\ue621',
+      color: "skyblue",
+      size: "80rpx"
+    }))
+  ])
+}
+const GenPagesIndexIndexStyles = []

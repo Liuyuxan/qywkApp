@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+	export default {
+		data() {
+			return {
+				title: '你好世界'
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+
+
+function GenPagesIndexIndexRender(): VNode | null {
+const _ctx = this
+const _cache = this.$.renderCache
+  return createElementVNode("view", utsMapOf({ class: "content" }), [
+    createElementVNode("image", utsMapOf({
+      class: "logo",
+      src: "/static/logo.png"
+    })),
+    createElementVNode("view", utsMapOf({ class: "text-area" }), [
+      createElementVNode("text", utsMapOf({ class: "title" }), toDisplayString(_ctx.title), 1)
+    ])
+  ])
+}
+const GenPagesIndexIndexStyles = [utsMapOf([["content", padStyleMapOf(utsMapOf([["display", "flex"], ["alignItems", "center"], ["justifyContent", "center"]]))], ["logo", padStyleMapOf(utsMapOf([["height", "200rpx"], ["width", "200rpx"], ["marginTop", "200rpx"], ["marginBottom", "50rpx"]]))], ["title", padStyleMapOf(utsMapOf([["fontSize", "36rpx"], ["color", "#8f8f94"]]))]])]

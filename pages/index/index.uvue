@@ -1,0 +1,25 @@
+<template>
+	<view class="content">
+		<u-icon :code="'\ue621'" color="skyblue" size="80rpx"></u-icon>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+</script>
+
+<style>
+	
+</style>

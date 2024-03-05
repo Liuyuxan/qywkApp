@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/login.uvue","pages/login.uvue?type=page"],"sourcesContent":["<template>\n\t<view>\n\t\t\n\t</view>\n</template>\n\n<script lang=\"uts\"  setup>\n\t\n</script>\n\n<style lang=\"scss\" scoped>\n\n</style>",null],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;8BAGQ,OAAA;QAER,IAAA,SAAA,IAAA,CAAA,GAAA,CAAA,WAAA;QACE,OAAO,mBAAiB;IAC1B"}

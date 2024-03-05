@@ -1,0 +1,41 @@
+
+
+
+
+
+	import fontPath from "@/static/iconfont.ttf"
+	export default {
+		name:"u-icon",
+		props: {
+			code: {
+				type: String,
+				required: true
+			},
+			color: {
+				type: String,
+				default: "#000",
+			},
+			size: {
+				type: String,
+				default: '50rpx'
+			}
+		},
+		mounted() {
+			uni.loadFontFace({
+				global: false,
+				source: fontPath,
+				family: 'iconfont'
+			})
+		}
+	}
+
+
+function GenComponentsUIconUIconRender(): VNode | null {
+const _ctx = this
+const _cache = this.$.renderCache
+  return createElementVNode("text", utsMapOf({
+    class: "iconfont",
+    style: normalizeStyle(utsMapOf({color: _ctx.color, 'fontSize': _ctx.size}))
+  }), toDisplayString(_ctx.code), 5 /* TEXT, STYLE */)
+}
+const GenComponentsUIconUIconStyles = [utsMapOf([["iconfont", padStyleMapOf(utsMapOf([["fontFamily", "iconfont"]]))]])]
